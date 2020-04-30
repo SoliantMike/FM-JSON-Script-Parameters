@@ -23,6 +23,10 @@ $_id = 123456890
 
 Now, any time you need to pass a script parameter when calling a script, all you need to do is feed it JSON as a parameter. Then in your script, call the custom function in an If script step. If there was any evaluation error, it will return a non-zero result that evaluates as true, where you can show a custom dialog and exit the script if you wish. Otherwise, a zero result equates to false, where you can continue in your script. 
 
+The custom functions used can be downloaded here<br />
+https://github.com/SoliantMike/FM_Custom-Functions/blob/master/JsonToVars.txt<br />
+https://github.com/SoliantMike/FM_Custom-Functions/blob/master/GetErrorDesc_en.txt
+
 
 Read more here: <a href="https://www.soliantconsulting.com/blog/">https://www.soliantconsulting.com/blog/</a>
 
