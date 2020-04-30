@@ -3,7 +3,7 @@ FM-JSON Script Parameters
 
 Passing Script Parameters Using the While function and JSON
 
-The While function, introduced in FileMaker 18, makes it easy to handle recursion in FileMaker calculations without having to rely on Custom Functions. It is also more performant and efficient. I have found it very handy in passing script parameters when writing FileMaker scripts. Especially for consolidating scripts, breaking up common functionality which allows me to normalize scripting logic.
+The While function, introduced in FileMaker 18, makes it easy to perform looping operations in FileMaker calculations without having to create complicated recursive custom functions. It is also more performant and efficient than recursive custom functions. I have found it to be very handy for passing script parameters when writing FileMaker scripts. This helps for consolidating several similar scripts into a single script, which allows me to try to normalize scripting logic.
 
 JSON (Javascript Object Notation) makes a lot of sense to use for Script Parameters, due to its readability and portability. This example builds off a technique shown here (https://www.soliantconsulting.com/blog/auto-create-variable-json-filemaker/) for automatically defining local variables for use in a script, based on some JSON that you feed into it. 
 
