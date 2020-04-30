@@ -9,16 +9,16 @@ JSON (Javascript Object Notation) makes a lot of sense to use for Script Paramet
 
 If you are not familiar with FileMaker’s JSON functions, they are very easy to use. Using the JSONSetElement function takes care of properly forming and escaping any JSON we produce. There is a very handy way of writing out this function in the calculation dialog, to make it very easy to add or delete elements as needed.
 
-JSONSetElement ( "" 
- ; [ "action" ; "build" ; JSONString ]
- ; [ "id" ; $id ; JSONString ]
+JSONSetElement ( "" <br />
+ ; [ "action" ; "build" ; JSONString ]<br />
+ ; [ "id" ; $id ; JSONString ]<br />
 )
 
 Note that each line with square brackets can be copied and pasted to add another element. The square brackets allow for additional parameters assigned in this FileMaker function. Even if you only have one element to define, the square brackets will work. There are several FileMaker functions that behave this way, like the Substitute function.
 
 In the above example, the resulting variables that get set will look like the following:
 
-$_action = build
+$_action = build<br />
 $_id = 123456890
 
 Now, any time you need to pass a script parameter when calling a script, all you need to do is feed it JSON as a parameter. Then in your script, call the custom function in an If script step. If there was any evaluation error, it will return a non-zero result that evaluates as true, where you can show a custom dialog and exit the script if you wish. Otherwise, a zero result equates to false, where you can continue in your script. 
