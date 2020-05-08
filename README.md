@@ -32,4 +32,3 @@ https://github.com/SoliantMike/FM_Custom-Functions/blob/master/GetErrorDesc_en.t
 
 Read more here: <a href="https://www.soliantconsulting.com/blog/filemaker-while-function/">https://www.soliantconsulting.com/blog/filemaker-while-function/</a>
 
-(blog post coming soon)
